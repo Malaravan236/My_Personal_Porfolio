@@ -1,0 +1,229 @@
+
+/* skills section */
+
+.navbar{
+    height: 80px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 80px;
+
+    position: sticky;
+    top: 0;
+
+    z-index: 1000;
+
+    background: linear-gradient(to right,#020617,#0f172a,#1e1b4b);
+}
+
+.logo{
+    color: white;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.logo span{
+    color: #7c3aed;
+}
+
+.nav-links{
+    display: flex;
+    gap: 40px;
+}
+
+.nav-links a{
+    color: white;
+    text-decoration: none;
+
+    transition: 0.3s ease;
+}
+
+.nav-links a:hover{
+    color: #7c3aed;
+}
+
+.download-btn{
+    text-decoration: none;
+
+    color: white;
+
+    background: #7c3aed;
+
+    padding: 12px 25px;
+
+    border-radius: 10px;
+
+    transition: 0.3s ease;
+}
+
+.download-btn:hover{
+    box-shadow: 0 0 20px rgba(124,58,237,0.6);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right,#020617,#0f172a);
+    font-family: 'Poppins', sans-serif;
+     box-sizing: border-box;
+}
+
+.skills-section{
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* title */
+.skills-title{
+    text-align: center;
+    color: #c026d3;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* heading */
+.skills-heading{
+    text-align: center;
+    color: white;
+    font-size: 55px;
+    margin-bottom: 60px;
+}
+
+/* grid */
+.skills-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+}
+
+/* card */
+.skill-card{
+    padding: 25px;
+    border-radius: 20px;
+    border: 1px solid #1e293b;
+    background-color: rgba(255,255,255,0.02);
+    transition: 0.3s ease;
+}
+
+/* hover */
+.skill-card:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 0 25px rgba(124,58,237,0.5);
+}
+
+/* info */
+.skill-info{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+/* icons */
+.skill-info i{
+    font-size: 45px;
+    /* color: #7c3aed;     */
+}
+
+/* skill name */
+.skill-info h3{
+    color: white;
+    font-size: 24px;
+}
+
+.devicon-django-plain{
+    color: #44ff44;
+}
+
+.devicon-github-original{
+    color: white;
+}
+
+
+/* percentage */
+.skill-info p{
+    color: #cbd5e1;
+}
+
+/* progress bar */
+.Progress-bar{
+    width: 100%;
+    height: 8px;
+    background: #1e293b;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+/* progress */
+.progress{
+    height: 100%;
+    border-radius: 20px;
+    animation: fillBars 2s ease-in-out;
+}
+
+@keyframes fillBars{
+
+    from{
+        width: 0;
+    }
+
+}
+
+/* different widths */
+.python{
+    width: 90%;
+    background: #7c3aed;
+}
+
+.html{
+    width: 95%;
+    background: orange;
+}
+
+.css{
+    width: 90%;
+    background: #2563eb;
+}
+
+.javascript{
+    width: 80%;
+    background: yellow;
+}
+
+.react{
+    width: 75%;
+    background: cyan;
+}
+
+.django{
+    width: 80%;
+    background: green;
+}
+
+.postman{
+    width: 70%;
+    background: #ff6c37;
+}
+
+
+
+.mongodb{
+    width: 75%;
+    background: limegreen;
+}
+
+.mysql{
+    width: 85%;
+    background: dodgerblue;
+}
+
+.github{
+    width: 85%;
+    background: #7c3aed;
+}
+
+.center-card{
+    grid-column: 2/3;
+}

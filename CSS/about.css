@@ -1,0 +1,247 @@
+
+/* about section */
+
+
+.navbar{
+    height: 80px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 80px;
+
+    position: sticky;
+    top: 0;
+
+    z-index: 1000;
+
+    background: linear-gradient(to right,#020617,#0f172a,#1e1b4b);
+}
+
+.logo{
+    color: white;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.logo span{
+    color: #7c3aed;
+}
+
+.nav-links{
+    display: flex;
+    gap: 40px;
+}
+
+.nav-links a{
+    color: white;
+    text-decoration: none;
+
+    transition: 0.3s ease;
+}
+
+.nav-links a:hover{
+    color: #7c3aed;
+}
+
+.download-btn{
+    text-decoration: none;
+
+    color: white;
+
+    background: #7c3aed;
+
+    padding: 12px 25px;
+
+    border-radius: 10px;
+
+    transition: 0.3s ease;
+}
+
+.download-btn:hover{
+    box-shadow: 0 0 20px rgba(124,58,237,0.6);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right,#020617,#0f172a);
+    font-family: 'Poppins', sans-serif;
+     box-sizing: border-box;
+}
+
+
+.about-section{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px;
+    gap: 80px;
+}
+
+/* left side */
+.about-content{
+    width: 50%;
+}
+
+/* about text */
+#about{
+    color: #c026d3;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+/* who am I */
+.who{
+    color: white;
+    font-size: 55px;
+    margin-bottom: 25px;
+}
+
+/* description */
+.about-desc{
+    color: white;
+    font-size: 20px;
+    line-height: 1.8;
+    margin-bottom: 40px;
+}
+
+/* cards */
+.about-cards{
+    display: flex;
+    gap: 25px;
+}
+
+/* single card */
+.card{
+    width: 220px;
+    padding: 30px 20px;
+    border: 1px solid #7c3aed;
+    border-radius: 20px;
+    background-color: rgba(255,255,255,0.02); 
+    transition: 0.3s;
+}
+
+.card:hover{
+    transform: translateY(-8px);
+
+    box-shadow: 0 0 25px rgba(124,58,237,0.6);
+}
+
+/* card number */
+.card h2{
+    color: white;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+/* card text */
+.card p{
+    color: #cbd5e1;
+    font-size: 18px;
+}
+
+/* education box */
+
+.education-card{
+    margin-top: 35px;
+
+    padding: 25px;
+
+    border: 1px solid #7c3aed;
+
+    border-radius: 20px;
+
+    background: rgba(255,255,255,0.02);
+
+    transition: 0.3s ease;
+}
+
+.education-card:hover{
+    transform: translateY(-5px);
+
+    box-shadow: 0 0 25px rgba(124,58,237,0.6);
+}
+
+.education-card h3{
+    color: #c026d3;
+
+    font-size: 24px;
+
+    margin-bottom: 15px;
+}
+
+.education-card p{
+    color: #cbd5e1;
+
+    margin-bottom: 8px;
+
+    line-height: 1.6;
+}
+
+.degree{
+    color: white !important;
+
+    font-size: 20px;
+
+    font-weight: 600;
+}
+
+/* right side */
+.about-image{
+    width: 50%;
+    display: flex;
+     flex-direction: column;
+    /* justify-content: center; */
+
+    align-items: center;
+    /* glow */
+    position: relative;
+}
+
+.signature{
+    margin-top: 20px;
+
+    color: #c026d3;
+
+    font-size: 48px;
+
+    font-family: 'Great Vibes', cursive;
+
+    text-shadow: 0 0 15px rgba(192,38,211,0.6);
+
+    text-align: center;
+}
+
+/* image */
+.about-image img{
+    width: 450px;
+    height: 550px;
+    object-fit: cover;
+    border-radius: 25px;
+    border: 1px solid #7c3aed;
+
+    /* glow */
+    position: relative;
+    z-index: 1;
+}
+
+.about-glow{
+    width: 350px;
+    height: 350px;
+
+    background: #7c3aed;
+
+    border-radius: 50%;
+
+    filter: blur(120px);
+
+    position: absolute;
+
+    top: 80px;
+
+    z-index: 0;
+}
+
