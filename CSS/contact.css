@@ -206,3 +206,17 @@ body{
 .contact-right button:hover{
     box-shadow: 0 0 20px rgba(124,58,237,0.6)
 }
+
+.footer{
+    text-align: center;
+    width: 100%;
+    padding: 20px 0;
+    border-top: 1px solid rgba(124,58,237,0.3);
+    margin-top: 50px;
+}
+
+.footer p{
+    color: #cbd5e1;
+    font-size: 18px;
+    margin: 0;
+}
